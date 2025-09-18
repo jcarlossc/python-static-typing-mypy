@@ -1,0 +1,22 @@
+[project]
+name = "python-static-typing-mypy"
+version = "0.1.0"
+description = "Estudo sobre tipagem estática e módulo mypy em linguagem Python."
+authors = [
+    {name = "jcarlossc",email = "jcarlossc1977@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "python_static_typing_mypy", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.18.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
