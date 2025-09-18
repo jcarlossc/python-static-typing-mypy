@@ -13,6 +13,9 @@ dependencies = [
 [tool.poetry]
 packages = [{include = "python_static_typing_mypy", from = "src"}]
 
+[tool.poetry.scripts]
+tipagem = "python_static_typing_mypy.main:main"
+
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.18.1"
