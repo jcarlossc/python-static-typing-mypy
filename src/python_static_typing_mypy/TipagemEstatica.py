@@ -1,4 +1,4 @@
-from typing import Union
+from typing import Union, Optional, List, Tuple, Dict
 
 class TipagemEstatica:
     def __init__(self):
@@ -19,4 +19,11 @@ class TipagemEstatica:
         else:    
             return num1 / num2
 
-             
+    def checar_idade(self, idade: int) -> bool:
+        if idade >= 18:
+            return True
+        else:
+            return False    
+
+    def digite_nome(self, nome: Optional[str] = None) -> str:
+        return nome or "Sem nome!"
