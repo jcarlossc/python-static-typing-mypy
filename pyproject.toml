@@ -19,6 +19,7 @@ tipagem = "python_static_typing_mypy.main:main"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.18.1"
+pytest = "^8.4.2"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
