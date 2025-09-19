@@ -12,7 +12,7 @@ Este repositório apresenta um estudo prático de **tipagem estática em Python*
 
 ---
 
-## 📌 Objetivo
+## 📌 Objetivo 
 
 O projeto **python-static-typing-mypy** foi desenvolvido para demonstrar:
 1. Como aplicar **tipagem estática** em Python moderno.  
