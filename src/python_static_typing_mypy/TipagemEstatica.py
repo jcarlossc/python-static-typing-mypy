@@ -1,7 +1,7 @@
-from typing import Union, Optional, List, Tuple, Dict
+from typing import Union, Optional, List, Tuple, Dict, TypeVar, Any
 
-class TipagemEstatica:
-    def __init__(self):
+class TipagemEstatica():
+    def __init__(self) -> None:
         pass
 
     def boas_vindas(self) -> str:
@@ -27,3 +27,20 @@ class TipagemEstatica:
 
     def digite_nome(self, nome: Optional[str] = None) -> str:
         return nome or "Sem nome!"
+
+    def media(self, notas: List[int]) -> float: 
+        return sum(notas) / len(notas)  
+
+    def idades(self) -> Tuple[int, int]:
+        return (44, 77)     
+
+    def frutas(self) -> Dict[str, int]:
+        return {"abacate": 10, "banana": 5}  
+
+    T = TypeVar("T")
+
+    def identidade(self, valor: T) -> T:
+        return valor
+
+    def qualque_valor(self, valor: Any) -> Any:
+        return valor    
