@@ -89,3 +89,16 @@ poetry run pytest
 
 ---
 
+## 📌 Contatos
+
+📌Recife, PE - Brasil
+📌Telefone: +55 81 99712 9140
+📌Telegram: @jcarlossc
+📌Blogger linguagem R: https://informaticus77-r.blogspot.com/
+📌Blogger linguagem Python: https://informaticus77-python.blogspot.com/
+📌Email: jcarlossc1977@gmail.com
+📌Portfólio em construção: https://portfolio-carlos-costa.netlify.app/
+📌LinkedIn: https://www.linkedin.com/in/carlos-da-costa-669252149/
+📌GitHub: https://github.com/jcarlossc
+📌Kaggle: https://www.kaggle.com/jcarlossc/
+📌Twitter/X: https://x.com/jcarlossc1977
