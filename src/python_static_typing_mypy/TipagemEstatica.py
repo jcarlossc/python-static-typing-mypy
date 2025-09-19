@@ -1,6 +1,43 @@
 from typing import Union, Optional, List, Tuple, Dict, TypeVar, Any
 
 class TipagemEstatica():
+    """
+    Classe TipagemEstatica demonstra o uso de tipagem estática em Python utilizando o módulo typing.
+    
+    Métodos:
+        boas_vindas() -> str:
+            Retorna uma mensagem de boas-vindas.
+        
+        somar(num1: int, num2: int) -> int:
+            Soma dois números inteiros e retorna o resultado.
+        
+        multiplicar(num1: float, num2: float) -> float:
+            Multiplica dois números de ponto flutuante e retorna o resultado.
+        
+        dividir(num1: float, num2: float) -> Union[float, str]:
+            Divide dois números de ponto flutuante. Retorna o resultado ou uma mensagem de erro em caso de divisão por zero.
+        
+        checar_idade(idade: int) -> bool:
+            Verifica se a idade é maior ou igual a 18 anos.
+        
+        digite_nome(nome: Optional[str] = None) -> str:
+            Retorna o nome informado ou "Sem nome!" caso não seja fornecido.
+        
+        media(notas: List[int]) -> float:
+            Calcula a média de uma lista de notas inteiras.
+        
+        idades() -> Tuple[int, int]:
+            Retorna uma tupla de idades.
+        
+        frutas() -> Dict[str, int]:
+            Retorna um dicionário com frutas e suas quantidades.
+        
+        identidade(valor: T) -> T:
+            Retorna o valor informado, mantendo o tipo.
+        
+        qualque_valor(valor: Any) -> Any:
+            Retorna qualquer valor informado, sem restrição de tipo.
+    """
     def __init__(self) -> None:
         pass
 
