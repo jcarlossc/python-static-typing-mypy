@@ -82,23 +82,23 @@ poetry run pytest
 
 ## 📌 Benefícios da Tipagem Estática
 
-📌 Identificação precoce de erros
-📌 Melhor legibilidade e documentação do código
-📌 Auxílio de IDEs/autocompletar
-📌 Segurança em projetos grandes
+📌 Identificação precoce de erros<br>
+📌 Melhor legibilidade e documentação do código<br>
+📌 Auxílio de IDEs/autocompletar<br>
+📌 Segurança em projetos grandes<br>
 
 ---
 
 ## 📌 Contatos
 
-📌Recife, PE - Brasil
-📌Telefone: +55 81 99712 9140
-📌Telegram: @jcarlossc
-📌Blogger linguagem R: https://informaticus77-r.blogspot.com/
-📌Blogger linguagem Python: https://informaticus77-python.blogspot.com/
-📌Email: jcarlossc1977@gmail.com
-📌Portfólio em construção: https://portfolio-carlos-costa.netlify.app/
-📌LinkedIn: https://www.linkedin.com/in/carlos-da-costa-669252149/
-📌GitHub: https://github.com/jcarlossc
-📌Kaggle: https://www.kaggle.com/jcarlossc/
-📌Twitter/X: https://x.com/jcarlossc1977
+📌Recife, PE - Brasil<br>
+📌Telefone: +55 81 99712 9140<br>
+📌Telegram: @jcarlossc<br>
+📌Blogger linguagem R: https://informaticus77-r.blogspot.com/<br>
+📌Blogger linguagem Python: https://informaticus77-python.blogspot.com/<br>
+📌Email: jcarlossc1977@gmail.com<br>
+📌Portfólio em construção: https://portfolio-carlos-costa.netlify.app/<br>
+📌LinkedIn: https://www.linkedin.com/in/carlos-da-costa-669252149/<br>
+📌GitHub: https://github.com/jcarlossc<br>
+📌Kaggle: https://www.kaggle.com/jcarlossc/<br>
+📌Twitter/X: https://x.com/jcarlossc1977<br>
