@@ -13,7 +13,20 @@ def main() -> None:
     print(f"Maioridade?: {app.checar_idade(48)}")
     print(f"Digite um nome: {app.digite_nome("Carlos")}")
     print(f"Digite um nome: {app.digite_nome()}")
+    print(f"Média: {app.media([18, 48, 38, 44])}")
 
+    print(f"Idades: {app.idades()}")
+
+    print(f"Frutas: {app.frutas()}")
+
+    print(f"Entrada de valor inteiro: {app.identidade(1)} - {type(app.identidade(1))}")
+    print(f"Entrada de valor de ponto flutuante: {app.identidade(2.5)} - {type(app.identidade(2.5))}")
+    print(f"Entrada de valor string: {app.identidade("Carlos")} - {type(app.identidade("Carlos"))}")
+
+    print(f"Entrada de valor inteiro: {app.qualque_valor(1)} - {type(app.qualque_valor(1))}")
+    print(f"Entrada de valor de ponto flutuante: {app.qualque_valor(2.6)} - {type(app.qualque_valor(2.6))}")
+    print(f"Entrada de valor string: {app.qualque_valor("Carlos")} - {type(app.qualque_valor("Carlos"))}")
+    print(f"Entrada de valor lista: {app.qualque_valor([1,2,3])} - {type(app.qualque_valor([1,2,3]))}")
 
 if __name__ == "__main__":
     main()
