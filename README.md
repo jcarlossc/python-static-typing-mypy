@@ -1,4 +1,4 @@
-# 📌 Estudo sobre tipagem estática e o módulo mypy em linguagem Python.
+# 📌 Estudo sobre tipagem estática e módulo mypy em linguagem Python.
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![Poetry](https://img.shields.io/badge/poetry-managed-orange)](https://python-poetry.org/)
